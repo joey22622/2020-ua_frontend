@@ -4,7 +4,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+import '../style.scss'
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -40,6 +40,8 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
+
+      {props.data}
     </>
   )
 }
