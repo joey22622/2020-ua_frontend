@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         </footer>
       </div>
 
-      {props.data}
+      {children.data}
     </>
   )
 }
